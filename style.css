@@ -37,7 +37,34 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+.social-icons {
+    position: fixed;
+    top: 35%; /* Adjust as needed */
+    right: 0px; /* Position to the right */
+    display: flex;
+    flex-direction: column;
+}
 
+
+.social-icons a {
+    color: #ffffff; /* White color for the icons */
+    background-color: black; /* Dark background color for contrast */
+    margin: 5px 0; /* Spacing between icons */
+    padding: 10px; /* Padding around the icons */
+    border-radius: 50%; /* Make icons circular */
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 20px; /* Adjust icon size */
+}
+
+.social-icons a:hover {
+    background-color: blue; /* Slightly lighter on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.social-icons i {
+    display: flex;
+}
 main {
     padding: 2em;
 }
