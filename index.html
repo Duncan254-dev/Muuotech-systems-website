@@ -111,6 +111,20 @@
                 <button class="order-btn">Order</button>
             </div>
         </section>
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+    const orderButtons = document.querySelectorAll('.order-btn');
+
+    orderButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            const product = event.target.closest('.product').getAttribute('data-product');
+            const whatsappNumber = '0705035612';
+            const whatsappUrl = `https://wa.me/254${whatsappNumber}?text=I'd%20like%20to%20order%20${encodeURIComponent(product)}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    });
+});
+        </script>
 
         <section id="order">
             <h2>Order Your Product</h2>
