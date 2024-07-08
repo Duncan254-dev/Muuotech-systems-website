@@ -21,21 +21,18 @@ header p {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
 }
 
 nav ul li {
-    margin: 0 1em;
+    display: inline;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 .social-icons {
     position: fixed;
