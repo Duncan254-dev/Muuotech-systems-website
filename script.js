@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const orderButtons = document.querySelectorAll('.order-btn');
 
     orderButtons.forEach(button => {
+        text-align: center; 
         button.addEventListener('click', (event) => {
             const product = event.target.closest('.product').getAttribute('data-product');
             const whatsappNumber = '0705035612';
