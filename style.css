@@ -85,6 +85,36 @@ header{
     }
    body{
    }
+    main {
+    padding: 2em;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+}
+
+.order-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.order-btn:hover {
+    background-color: #218838;
+}
     .gallery {
         display: flex;
         justify-content: center;
