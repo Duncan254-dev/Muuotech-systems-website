@@ -82,6 +82,7 @@ body {
 
 #products h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Flex container */
@@ -112,6 +113,7 @@ body {
 
 .product h3 {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .product .order-btn {
@@ -122,10 +124,12 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
 .product .order-btn:hover {
     background-color: #45a049;
+    text-align: center;
 }
 
 .product:hover {
